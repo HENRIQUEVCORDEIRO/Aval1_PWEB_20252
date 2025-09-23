@@ -1,0 +1,105 @@
+:root {
+  --color-header: #001f3f;
+  --bg-main: #f5f7fa;
+  --bg-boxs: #002b55;
+  --highlights: #ff9900;
+  --color-text-main: #1a1a1a;
+  --color-text-sec: #a9c4d9;
+  --color-borders: #d9d9d9;
+  --main-btn-borders: #003355;
+  --main-btn-bg: #252e49;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-main);
+  color: var(--color-text-main);
+  /*Adicionar font-family nesta linha*/
+}
+
+#pic {
+  width: 150x;
+  height: 100px;
+  border-radius: 10%;
+}
+
+/*.container {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-header);
+}*/
+
+.container-header {
+  background-color: var(--color-header);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+nav a {
+  display: inline-block;
+  border: 2px solid var(--main-btn-borders);
+  border-radius: 10%;
+  padding: 8px 12px;
+  text-decoration: none;
+  background-color: var(--color-header);
+  transition: 0.5s;
+}
+
+nav a:hover {
+  background-color: var(--main-btn-bg);
+}
+
+a {
+  color: var(--color-text-sec);
+}
+
+.btn {
+  color: var(--highlights);
+  border: 2px solid var(--highlights);
+  background-color: #ff9900;
+  transition: 0.5s;
+}
+
+.btn-hover {
+  background: linear-gradient(0deg, #ff990015, #ff990030);
+  text-decoration: none;
+}
+
+/*A parte do nav no container-header acabou afetando a parte de redes sociais e links no rodapé*/
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  list-style: none;
+  color: var(--highlights);
+}
+
+.card ul {
+  border: 2px solid var(--color-borders);
+  border-radius: 5%;
+  background-color: var(--bg-boxs);
+  color: var(--color-text-sec);
+}
+
+.mbr {
+  width: 200px;
+  height: 200px;
+}
