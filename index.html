@@ -12,7 +12,7 @@
     <header>
         <div class="container-header">
             <div>
-                <img id="pic" src="./imgs/logo.jpg" alt="logotype">
+                <img id="pic" src="./imgs/logo2.png" alt="logotype">
             </div>
             <nav>
                 <ul>
@@ -69,7 +69,7 @@
                 <h2>Atividades e Encontros</h2>
             </div>
 
-            <div class="card">
+            <div class="card info-gallery">
                 <ul>
                     <li class="title">Observação Noturna</li>
                     <li>Local: Telhado da Uespi</li>
@@ -142,19 +142,22 @@
                 <h2>Membros Ativos</h2>
             </div>
 
-            <figure>
-                <img class="mbr" src="./imgs/member.jpg" alt="frst_guy">
-                <figcaption></figcaption>
-            </figure>
+            <div class="mbr-gallery">
+                <figure>
+                    <img class="mbr" src="./imgs/member.jpg" alt="frst_guy">
+                    <figcaption>Henrique Veras Cordeiro | Presidente</figcaption>
+                </figure>
 
-            <figure>
-                <img class="mbr" src="./imgs/member.jpg" alt="scnd_guy">
-                <figcaption></figcaption>
-            </figure>
+                <figure>
+                    <img class="mbr" src="./imgs/member.jpg" alt="scnd_guy">
+                    <figcaption>Felipe Martins dos Santos Silva | Pesquisador</figcaption>
+                </figure>
 
-            <figure>
-                <img class="mbr" src="./imgs/member.jpg" alt="trd_guy">
-            </figure>
+                <figure>
+                    <img class="mbr" src="./imgs/member.jpg" alt="trd_guy">
+                    <figcaption>Jordan Fernandes de Carvalho | Apoio</figcaption>
+                </figure>
+            </div>
         </section>
 
         <section>
@@ -175,18 +178,17 @@
 
                 <div>
                     <label for="course">Curso:</label>
-                    <select name="curso" id="course">
-                        <option value="">Tecnologia em Sistemas de Computação</option>
-                        <option value="">Agronomia</option>
-                        <option value="">Letras - Português</option>
-                        <option value="">Enfermagem</option>
+                    <select name="curso" id="course" multiple>
+                        <option value="tsc">Tecnologia em Sistemas de Computação</option>
+                        <option value="ag">Agronomia</option>
+                        <option value="lp">Letras - Português</option>
+                        <option value="enf">Enfermagem</option>
                     </select>
                 </div>
 
                 <div>
                     <label for="schedule">Disponibilidade de Horário</label>
                     <input type="checkbox" name="schedules" id="check" value="17h00" placeholder="17h00">
-                    <!--Colocar mais horários-->
                 </div>
 
                 <div>
